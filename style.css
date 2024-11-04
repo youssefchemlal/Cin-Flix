@@ -1,0 +1,224 @@
+ul {
+    display: inline-flex;
+    gap: 45px;
+    font-family: 'Island Moments', cursive;
+    font-size: 42px;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+header {
+    text-align: center;
+
+}
+
+a {
+    text-decoration: none;
+    color: #629584;
+
+}
+
+
+
+.titre {
+    display: flex;
+    justify-content: center;
+
+}
+
+.titre h2 {
+    font-family: 'Irish Grover', cursive;
+    color: #740938;
+    font-size: 50px;
+}
+
+.bare-de-recherche {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #008CBA;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="text"]:hover {
+    border-color: #005f6b;
+    background-color: #E2F1E7;
+}
+
+input[type="text"]:focus {
+    border-color: #005f6b;
+    background-color: #E2F1E7;
+}
+
+
+
+.content-img2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+
+}
+
+.content-img2 img {
+    height: 200px;
+    width: 200px;
+}
+
+
+.content-detail {
+    display: flex;
+    margin-top: 120px;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 120px;
+
+
+}
+
+.image-details img {
+    height: 600px;
+    width: 70%;
+
+    flex-wrap: wrap;
+
+}
+
+.image-details {
+    width: 50%;
+    flex-wrap: wrap;
+
+
+}
+
+.paragraphe-details {
+    width: 50%;
+
+}
+
+.text-details h3 {}
+
+.text-details h3 {
+    font-size: 40px;
+    font-family: 'Irish Grover', cursive;
+    color: #008CBA;
+    flex-wrap: wrap;
+
+}
+
+.content-detail {}
+
+.img {
+    border-radius: 30px;
+}
+
+.content-img1 .img {
+    background-color: #3DC2EC;
+
+}
+
+
+.content-img1 h3 {
+    display: flex;
+    font-family: 'Irish Grover', cursive;
+    justify-content: center;
+
+}
+
+/*button*/
+.button-mode{
+    display: flex;
+    justify-content: center;   
+
+}
+.button-mode button{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: #629584;
+}
+body{
+    background-color: #ffff;
+    transition: background-color 3s;
+
+}
+.dark-mode{
+    background-color: black;
+    transition: background-color 3s;
+    
+}
+
+/* carrousel*/
+/* Style pour le carrousel */
+
+.img {
+    min-width: 200px; /* Largeur de chaque élément image */
+    margin: 0 10px; /* Espace entre les éléments */
+    text-align: center;
+
+    color: #740938;
+    border-radius: 10px;
+}
+.content-img1 img {
+    height: 200px;
+    width: 200px;
+}
+.content-img1 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-top: 50px;
+    gap: 50px;
+    overflow: hidden; /* Cache les éléments hors de la vue */
+    width: 300%; /* Assurez-vous que ça s'adapte à votre mise en page */
+    transition: transform 0.5s ease-in-out; /* Transition douce pour le défilement */
+
+}
+
+
+
+
+/*like-continer*/
+  
+  .like-container {
+    text-align: center;
+  }
+  
+  #like-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  #like-button:hover {
+    background-color: #0056b3;
+  }
+  
+  #like-count {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+
+  /*rtoile*/
+  .star {
+    font-size: 30px;
+    color: #ddd;
+    cursor: pointer; 
+  }
+  
+  .star.selected {
+    color: #ffc107;
+  }
+  
